@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Belajar Mengaji</string>
+
+    <string name="button_belajar"></string>
+    <string name="admob_publisher_id">ca-app-pub-3202940051662355~1474231997</string>
+    <string name="admob_interstitial_id">ca-app-pub-3202940051662355/3034725672</string>
+
+</resources>

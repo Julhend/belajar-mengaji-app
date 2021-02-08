@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.skripsi.belajarmengaji">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        <activity
+            android:name="com.app.skripsi.belajarmengaji.Intro_Pertama" android:screenOrientation="landscape"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.skripsi.belajarmengaji.Intro_App" android:screenOrientation="landscape"  />
+        <activity android:name="com.app.skripsi.belajarmengaji.Main" android:screenOrientation="landscape"  />
+        <activity android:name="com.app.skripsi.belajarmengaji.Main_Belajar" android:screenOrientation="landscape"  />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Hijaiyah_2" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Harokat_1" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Tanwin_1" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Harokat_Fathah" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Harokat_Dhomah" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Harokat_Kasroh" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Tanwin_Fathah_Tain" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Tanwin_Domah_Tain" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Belajar_Tanwin_Kasroh_Tain" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.hasil" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Quis_Bacaan" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Quis_Bacaan_Hijaiyah" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Quis_Bacaan_Harokat" android:screenOrientation="landscape" />
+        <activity android:name="com.app.skripsi.belajarmengaji.Quis_Bacaan_Tanwin" android:screenOrientation="landscape" />
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+</manifest>
